@@ -1,0 +1,10 @@
+#leaderboardBtn {
+    background-color: #0033A0;
+    color: white;
+    float: right;
+    margin: 10px;
+}
+
+#leaderboardBtn:hover {
+    background-color: #002080
+}
