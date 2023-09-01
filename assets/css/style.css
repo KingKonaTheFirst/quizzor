@@ -8,3 +8,8 @@
 #leaderboardBtn:hover {
     background-color: #002080
 }
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
