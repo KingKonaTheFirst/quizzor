@@ -2,6 +2,15 @@ let currentQuestion = 0;
 let score = 0;
 let timer = 60; // Timer in seconds
 
+
+const questions = [
+  {
+    question:"What does JS stand for in JavaScript?",
+    answers: ["JavaSource", "JustScript", "JumboScript", "JavaScript"],
+    correct:"D) JavaScript"
+  }
+]
+
 const questionElement = document.getElementById("question");
 const optionsElement = document.getElementById("options");
 const submitButton = document.getElementById("submit");
