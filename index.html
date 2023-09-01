@@ -10,21 +10,24 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
-  <body>
-    <button id="leaderboardBtn" class="btn">
-      <a href="./leaderboard.html" style="color: white">Leader Board</a>
-    </button>
-    <div id="question"></div>
-    <div id="options"></div>
+  <body
+    class="d-flex align-items-center justify-content-center"
+    style="height: 100vh"
+  >
+    <div class="border p-5 rounded">
+      <div class="mb-3" id="question"></div>
+      <div class="mb-3" id="options"></div>
+
+      <button id="submit">Submit</button>
+
+      <div class="mb-3" id="results"></div>
+      <div class="mb-3" id="score"></div>
     
-    <button id="submit">Submit</button>
-  
-    <div id="results"></div>
-    <div id="score"></div>
     <div id="timer"></div>
+  </div>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
