@@ -5,10 +5,10 @@ let timer = 60; // Timer in seconds
 
 const questions = [
   {
-    question:"What does JS stand for in JavaScript?",
-    answers: ["JavaSource", "JustScript", "JumboScript", "JavaScript"],
-    correct:"D) JavaScript"
-  }
+    question: "What does JS stand for in JavaScript?",
+    options: ["JavaSource", "JustScript", "JumboScript", "JavaScript"],
+    answer: 3
+}
 ]
 
 const questionElement = document.getElementById("question");
