@@ -16,6 +16,8 @@ n/a
 
 ## usage
 Click the answers you think is correct and you will recieve a score at the end
+![Alt text](./assets/images/Screenshot%202023-09-01%20110410.png)
+
 
 ## License
 
